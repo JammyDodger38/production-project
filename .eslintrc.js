@@ -40,6 +40,7 @@ module.exports = {
     'max-len': ['error', { ignoreComments: true }],
     'linebreak-style': 'off',
     'comma-dangle': 'off',
+    'object-curly-newline': 'off',
   },
   globals: {
     __IS_DEV__: 'true',
