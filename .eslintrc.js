@@ -31,6 +31,7 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     'no-underscore-dangle': 'off',
     'arrow-parens': 'off',
+    'linebreak-style': 'off',
     semi: 'off',
     'i18next/no-literal-string': [
       'error',
