@@ -37,6 +37,7 @@ module.exports = {
     'jsx-a11y/click-events-have-key-events': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
     'implicit-arrow-linebreak': 'off',
+    'consistent-return': 'off',
     semi: 'off',
     'comma-dangle': 'off',
     'no-param-reassign': 'off',
