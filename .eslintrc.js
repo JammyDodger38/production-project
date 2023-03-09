@@ -39,6 +39,7 @@ module.exports = {
     'implicit-arrow-linebreak': 'off',
     semi: 'off',
     'comma-dangle': 'off',
+    'no-param-reassign': 'off',
     'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
     'react-hooks/exhaustive-deps': 'error', // Checks effect dependencies
     'i18next/no-literal-string': [
