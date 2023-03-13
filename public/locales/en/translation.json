@@ -10,5 +10,9 @@
   "throw error": "throw error",
   "Главная": "Main",
   "О сайте": "About us",
-  "Короткий язык": "En"
+  "Короткий язык": "En",
+  "Войти": "Sign in",
+  "Введите логин": "Enter username",
+  "Введите пароль": "Enter password",
+  "Вы ввели неверный логин или пароль": "Uncorrect username or password"
 }
