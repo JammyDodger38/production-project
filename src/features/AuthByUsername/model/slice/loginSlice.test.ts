@@ -1,0 +1,16 @@
+import { StateSchema } from 'app/providers/StoreProvider'
+import { DeepPartial } from '@reduxjs/toolkit'
+import { loginByUsername } from '../services/loginByUsername/loginByUsername'
+import { loginActions, loginReducer } from './loginSlice'
+import { LoginSchema } from '../types/loginSchema'
+
+describe('loginSlice.test', () => {
+  test('test set username', () => {
+    const state: DeepPartial<LoginSchema> = { username: '123' }
+    expect(loginReducer(state as LoginSchema, loginActions.setUsername('123123'))).toBe({ username: '123123' })
+  })
+  test('test set password', () => {
+    const state: DeepPartial<LoginSchema> = { password: '123' }
+    expect(loginReducer(state as LoginSchema, loginActions.setPassword('123123'))).toBe({ password: '123123' })
+  })
+})
