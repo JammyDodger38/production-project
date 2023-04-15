@@ -13,5 +13,14 @@
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "first": "Влад",
+    "lastname": "Владимиров",
+    "age": 22,
+    "currency": "RUB",
+    "country": "Russia",
+    "city": "Krasnoyarsk",
+    "username": "admin",
+    "avatar": "https://android-obzor.com/wp-content/uploads/2022/03/28e4ac42f547e6ac0f50f7cfa916ca93.jpg"
+  }
 }
