@@ -41,6 +41,7 @@ module.exports = {
     semi: 'off',
     'comma-dangle': 'off',
     'no-param-reassign': 'off',
+    'no-undef': 'off',
     'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
     'react-hooks/exhaustive-deps': 'error', // Checks effect dependencies
     'i18next/no-literal-string': [
@@ -54,6 +55,7 @@ module.exports = {
   },
   globals: {
     __IS_DEV__: true,
+    __API__: true,
   },
   overrides: [
     {
