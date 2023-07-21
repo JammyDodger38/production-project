@@ -41,6 +41,8 @@ module.exports = {
     semi: 'off',
     'comma-dangle': 'off',
     'no-param-reassign': 'off',
+    'operator-linebreak': 'off',
+    'react/jsx-wrap-multilines': 'off',
     'no-undef': 'off',
     'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
     'react-hooks/exhaustive-deps': 'error', // Checks effect dependencies
@@ -56,6 +58,7 @@ module.exports = {
   globals: {
     __IS_DEV__: true,
     __API__: true,
+    __PROJECT__: true,
   },
   overrides: [
     {
